@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const seconds = formatNumber(Math.floor((distance % (1000 * 60)) / 1000));
 
         // Output the result in an element with id="countdown"
-        document.getElementById("countdown").innerHTML = days + "D" + hours + ":"
+        document.getElementById("countdown").innerHTML = days + "DAY" + "<br>" +hours + ":"
             + minutes + ":" + seconds;
 
         // If the count down is over, write some text
@@ -37,10 +37,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const predictions = [
         { name: "Elon Musk", prediction: "2029", link: "https://www.tesla-mag.com/elon-musk-says-xai-aims-for-safe-ai-predicts-full-agi-by-2029/" },
         { name: "OpenAI", prediction: "2030", link: "https://openai.com/blog/introducing-superalignment" },
-        { name: "Elon Musk", prediction: "2035", link: "https://example.com/elon" },
-        { name: "Elon Musk", prediction: "2035", link: "https://example.com/elon" },
-        { name: "Elon Musk", prediction: "2035", link: "https://example.com/elon" },
-        { name: "Elon Musk", prediction: "2035", link: "https://example.com/elon" },
         // Add more predictions here...
     ];
 
