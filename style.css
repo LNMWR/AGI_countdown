@@ -1,0 +1,49 @@
+/* 通用样式 */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #080808;  /* 可以根据需要更改背景色 */
+    color: #faf4f4;  /* 更改文字颜色 */
+    display: flex;
+    flex-direction: column;  /* 修改这里让内容上下排列 */
+    justify-content: center;
+    align-items: center;
+}
+
+/* 容器样式 */
+.container {
+    max-width: 1600px;  /* 容器的最大宽度，可以根据需要更改 */
+    width: 100%;
+    text-align: center;
+}
+
+.countdown-container {
+    margin-bottom: 200px;  /* 增加间距将倒计时和预测分隔开 */
+}
+
+/* 倒计时样式 */
+#countdown {
+    font-size: 10em;  /* 调整字体大小使倒计时更大 */
+    color: #faf9f9;  /* 更改倒计时的颜色 */
+}
+
+/* 预测列表样式 */
+#predictions {
+    list-style-type: none;
+    padding: 0;
+}
+
+#predictions li {
+    margin: 5px 0;
+}
+
+/* 链接样式 */
+a {
+    color: rgb(233, 233, 234);
+}
+
+a:hover {
+    text-decoration: underline;
+}
